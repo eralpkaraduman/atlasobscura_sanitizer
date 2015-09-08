@@ -1,0 +1,1 @@
+atlasobscura.com is an awesome website about cool places in a city. but whenever you search for places an get the list on the left you cannot cmd+click to open them on new pages, site keeps refreshing. So i built this to generate a convenient list out of websites search request response jsons. I'll probably add downloading json with location and bounds also.
