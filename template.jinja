@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+    <ul id="pois">
+    {% for item in pois %}
+        <li><a href="{{ item.url }}">
+        	<h1>{{ item.title }}</h1>
+        	<img src="{{item.thumbnail}}" />
+        </a></li>
+    {% endfor %}
+    </ul>
+    {# a comment #}
+</body>
+</html>
